@@ -1,0 +1,82 @@
+.menu {
+    border: 3em;
+    border-radius: 10px;
+    opacity: 0.8;
+    font-size: large;
+}
+
+
+.funFacts {
+    font-weight: 500;
+}
+
+#cartoon {
+    max-width: 25%;
+    border-radius: 50px;
+}
+
+#puppy {
+    max-width: 40%;
+    border-radius: 30px;
+}
+
+.footer {
+    position:fixed;
+    bottom: 0em;
+    font-size: small;
+}
+
+@media only screen and (min-width: 400px) {
+    body {
+        background-image: radial-gradient(#00e1ff, #2e3ae5);
+        color: #010764;
+
+    }
+
+    .menu {
+        background-color:#160052;
+        color: #95f8ff;
+    }
+
+    .link {
+        color: #95f8ff;
+    }
+    
+    .link:visited {
+        color: #00a2ad;
+        font-size: large;
+    }
+
+    .funFacts {
+        color: #95f8ff;
+        font-weight: 500;
+    }
+    
+  }
+
+  @media only screen and (min-width: 768px) {
+    body {
+        background-image: radial-gradient(#ff8a00, #e52e71);
+        color: #52002d;
+    }
+
+    .menu {
+        background-color:#52002d;
+        color: #ffc595;
+    }
+
+    .link {
+        color: #ffc595;
+    }
+    
+    .link:visited {
+        color: #ff8037;
+        font-size: large;
+    }
+
+    .funFacts {
+        color: #ffc595;
+        font-weight: 500;
+    }
+    
+  }
